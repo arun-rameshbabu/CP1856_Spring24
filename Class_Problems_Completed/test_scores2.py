@@ -11,10 +11,10 @@ print("=======================")
 
 
 
-# test_score = 0
-# total_score = 0
-# temp_score = 0
-# num_tests = 0
+test_score = 0
+total_score = 0
+temp_score = 0
+num_tests = 0
 
 while temp_score != 999:
     temp_score = int(input("Enter test score:\t"))    
