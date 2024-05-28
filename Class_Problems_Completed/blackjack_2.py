@@ -10,12 +10,11 @@ print("BLACKJACK!\nBlackjack payout is 3:2\nEnter 'x' for bet to exit\n")
 starting_money = int(input("Starting money: "))
 
 
-while True:
+while starting_money > 0:
     
     bet_amnt = input("\nBet amount: ")
       
     if bet_amnt.lower() == 'x':
-        print("Bye!")
         break
     
     blackjack = input("Blackjack, win, push, or lose? (b/w/p/l): ")
@@ -35,3 +34,5 @@ while True:
         starting_money = starting_money - int(bet_amnt)
         print(f"Money: {starting_money:.1f}") 
     
+    
+print("Bye!")
