@@ -38,6 +38,7 @@ halloween_1.date()
 halloween_2 = datetime.datetime.strptime('31-10-2024', "%d-%m-%Y")
 halloween_3 = datetime.datetime.strptime('31-10-2024 22:45', "%d-%m-%Y %H:%M")
 
+
 print(f'{halloween:%d/%m/%Y}')
 print(f'{halloween:%B %d, %Y (%A)}')
 
@@ -53,3 +54,4 @@ three_weeks_ago = date.today() - timedelta(weeks=3)
 
 three_weeks.days
 three_weeks.total_seconds()
+
